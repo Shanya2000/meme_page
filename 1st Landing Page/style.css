@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to left bottom, rgb(157, 80, 80), rgb(91, 159, 77), rgb(35, 109, 133));
+}
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+nav ul li:hover{
+    background-color: rgba(43, 192, 43, 0.418);
+    color: beige;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+.section1{
+    max-height: 100vh;
+}
+.section1 h1{
+    font-size: 2rem;
+}
+.top-left{
+    width: 50%;    
+}
+.top-right {
+    width: 50%;
+        
+}
+.logo{
+    font-size: 1.3rem;
+}
+.dumbellimg{
+    width: 289px;
+    box-shadow: 10px 10px 50px;
+    border-radius: 15px ;
+}
+.top-right .gymimg{
+    width: 600px;
+    border: 2px solid black;
+    box-shadow: 0 6px 10px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+.section2{
+    padding: 75px;
+}
+.section2 h1{
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.box{ 
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(50, 113, 113, 0.434);
+    box-shadow: 10px 6px 10px;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px  solid black;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+.section3 h1{
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+.section3{
+    padding: 75px;
+}
+footer{
+    padding: 22px;
+    text-align: center;
+}
