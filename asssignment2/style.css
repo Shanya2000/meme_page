@@ -1,0 +1,27 @@
+
+.container-fluid h3{
+    color: rgb(12, 4, 40);
+    text-align: center;
+}
+.container-fluid h1{
+    color: rgb(38, 12, 123);
+    text-align: center;
+}
+.container-fluid p{
+    background-color: #f8f9fa;
+}
+.nav-link{
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+}
+@media (min-width: 992px){
+.navbar-nav {
+    display: none;
+}
+}
+@media (min-width: 768px){
+    .navbar-toggler{
+        display: none;
+    }
+}
